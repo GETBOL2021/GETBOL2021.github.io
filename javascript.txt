@@ -1,0 +1,18 @@
+// JavaScript 코드 예시: 키보드 버튼 클릭 이벤트 처리
+document.addEventListener('DOMContentLoaded', () => {
+    const keyboard = document.querySelector('.keyboard');
+
+    // 키보드에 버튼 추가하기 (예시)
+    for (let i = 0; i < 26; i++) {
+        const button = document.createElement('button');
+        button.textContent = String.fromCharCode(65 + i); // A-Z 문자 생성
+        keyboard.appendChild(button);
+    }
+
+    // 버튼 클릭 이벤트 리스너
+    keyboard.addEventListener('click', (event) => {
+        if (event.target.tagName === 'BUTTON') {
+            alert(`You pressed ${event.target.textContent}`);
+        }
+    });
+});
