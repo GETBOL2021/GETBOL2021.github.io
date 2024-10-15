@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GETBOL DECORDER</title>
+    <link rel="stylesheet" href="styles.css"> <!-- CSS 파일을 루트 디렉토리에서 참조 -->
+</head>
+<body>
+    <header>
+        <h1>GETBOL DECORDER</h1>
+    </header>
+    <main>
+        <section class="keyboard">
+            <!-- 키보드의 버튼 및 레이아웃 구성 -->
+        </section>
+    </main>
+    <script src="script.js"></script> <!-- JavaScript 파일을 루트 디렉토리에서 참조 -->
+</body>
+</html>
